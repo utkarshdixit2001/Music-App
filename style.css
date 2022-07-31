@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+    position: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  font-family : 'Ubuntu',sans-serif;
+  display: flex;
+  width: 105%;
+}
+nav ul{
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+
+}
+
+.search{
+    margin-left: 850px;
+    position: absolute;
+    height: 45px;
+    width: 485px;
+    top: 6px;
+}
+.form-control{
+    font-size: 20px;
+    width: 40%;
+  position: relative;
+  height: inherit;
+}
+.btn{
+    font-size: 13px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    position: relative;
+    top: 3px;
+}
+.audio{
+    padding-left: 95px;
+    margin-top: 25px;  
+    display:grid;
+    height: 50px;
+    border-radius: 34px; 
+}
+.media{
+    position: absolute;
+}
+    
+#img1{
+    margin-left: 1090px;
+    margin-top: 25px;
+    padding: 12px;
+    display: block;
+    height: auto;
+    width: 386px;
+}
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+    margin-top: 1px;
+}
+.brand{
+
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+nav ul li{
+    padding: 0 12px;
+
+    margin-top: 12px;
+}
+.poster{
+    display: none;
+}
+.poster img{
+    width: 350px;
+    height: 305px;
+}
+section{
+    
+    position: relative;
+    margin-left: 625px;
+    bottom: 10px;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+.control{
+    position: fixed;
+    display: inline-block;
+    
+}
+.icons{
+    height: 60px;
+    width: 70px;
+    background-color: #008CBA;
+
+}
+.button{
+    background-color: #008CBA;
+    border: none;
+    cursor: pointer;
+}
+.remove{
+    background-color: yellowgreen
+}
+.mediaa1{
+    margin-left: 1030px;
+    margin-top: 25px;
+    padding: 12px;
+    display: block;
+    height: auto;
+    width: 386px;
+}
